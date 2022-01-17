@@ -1,0 +1,378 @@
+{
+  "name": "pengukur-suhu---mqtt",
+  "patches": {
+    "@/main": {
+      "links": {
+        "BJ41BKM6t": {
+          "id": "BJ41BKM6t",
+          "input": {
+            "nodeId": "HygHVKzpY",
+            "pinKey": "HyYh1a3LZ"
+          },
+          "output": {
+            "nodeId": "HkA6NtMaK",
+            "pinKey": "B19RYS3lW"
+          }
+        },
+        "BJOgStMaF": {
+          "id": "BJOgStMaF",
+          "input": {
+            "nodeId": "rJYkrFzpK",
+            "pinKey": "rJg00Nhe-"
+          },
+          "output": {
+            "nodeId": "rJ8whOfTK",
+            "pinKey": "HybttEF8r"
+          }
+        },
+        "Bk2_OFfaY": {
+          "id": "Bk2_OFfaY",
+          "input": {
+            "nodeId": "Hyu_utzaK",
+            "pinKey": "r1MCaWi3_"
+          },
+          "output": {
+            "nodeId": "Sy4HdKfpY",
+            "pinKey": "H1Gd15UFQ"
+          }
+        },
+        "Byd0NtzpF": {
+          "id": "Byd0NtzpF",
+          "input": {
+            "nodeId": "HkA6NtMaK",
+            "pinKey": "rJg00Nhe-"
+          },
+          "output": {
+            "nodeId": "rJ8whOfTK",
+            "pinKey": "HybttEF8r"
+          }
+        },
+        "Hk_SA_faY": {
+          "id": "Hk_SA_faY",
+          "input": {
+            "nodeId": "ryaL6uM6K",
+            "pinKey": "rJgnw0417B"
+          },
+          "output": {
+            "nodeId": "Hy7VCuGpK",
+            "pinKey": "rksccsp-W"
+          }
+        },
+        "HyHfBifpt": {
+          "id": "HyHfBifpt",
+          "input": {
+            "nodeId": "rJB3OYzTt",
+            "pinKey": "ByQ4aXnyE"
+          },
+          "output": {
+            "nodeId": "rJq1T_GaF",
+            "pinKey": "HJU8CE2lW"
+          }
+        },
+        "S1N-CdfTF": {
+          "id": "S1N-CdfTF",
+          "input": {
+            "nodeId": "ryaL6uM6K",
+            "pinKey": "BJ3DAE1QS"
+          },
+          "output": {
+            "nodeId": "H1ulAdMTY",
+            "pinKey": "rksccsp-W"
+          }
+        },
+        "S1RW0_GTY": {
+          "id": "S1RW0_GTY",
+          "input": {
+            "nodeId": "H1ulAdMTY",
+            "pinKey": "BkeKcj6ZZ"
+          },
+          "output": {
+            "nodeId": "rJ8whOfTK",
+            "pinKey": "HybttEF8r"
+          }
+        },
+        "SJXWYYfTF": {
+          "id": "SJXWYYfTF",
+          "input": {
+            "nodeId": "rJB3OYzTt",
+            "pinKey": "BJSrpWTyE"
+          },
+          "output": {
+            "nodeId": "rJ8whOfTK",
+            "pinKey": "HybttEF8r"
+          }
+        },
+        "SJcyKtG6F": {
+          "id": "SJcyKtG6F",
+          "input": {
+            "nodeId": "rJB3OYzTt",
+            "pinKey": "rkQTwbs2_"
+          },
+          "output": {
+            "nodeId": "Hyu_utzaK",
+            "pinKey": "SJefRbonu"
+          }
+        },
+        "Sk6ScjGTt": {
+          "id": "Sk6ScjGTt",
+          "input": {
+            "nodeId": "BkVHqjfTK",
+            "pinKey": "rkQTwbs2_"
+          },
+          "output": {
+            "nodeId": "Hyu_utzaK",
+            "pinKey": "SJefRbonu"
+          }
+        },
+        "SkqvgYG6F": {
+          "id": "SkqvgYG6F",
+          "input": {
+            "nodeId": "SkQwlKMTY",
+            "pinKey": "S19J9j6WZ"
+          },
+          "output": {
+            "nodeId": "rJ8whOfTK",
+            "pinKey": "SkeWYtEY8S"
+          }
+        },
+        "r1zLSKzTY": {
+          "id": "r1zLSKzTY",
+          "input": {
+            "nodeId": "r1ErEFzat",
+            "pinKey": "HyYh1a3LZ"
+          },
+          "output": {
+            "nodeId": "rJYkrFzpK",
+            "pinKey": "B19RYS3lW"
+          }
+        },
+        "rJAPqifpt": {
+          "id": "rJAPqifpt",
+          "input": {
+            "nodeId": "BkVHqjfTK",
+            "pinKey": "ByQ4aXnyE"
+          },
+          "output": {
+            "nodeId": "rJYkrFzpK",
+            "pinKey": "B19RYS3lW"
+          }
+        },
+        "rJLgWYGaY": {
+          "id": "rJLgWYGaY",
+          "input": {
+            "nodeId": "Hy7VCuGpK",
+            "pinKey": "BkeKcj6ZZ"
+          },
+          "output": {
+            "nodeId": "SkQwlKMTY",
+            "pinKey": "rk4-cs6-W"
+          }
+        },
+        "ryHg6OfaF": {
+          "id": "ryHg6OfaF",
+          "input": {
+            "nodeId": "rJ8whOfTK",
+            "pinKey": "Bkbs7mtUr"
+          },
+          "output": {
+            "nodeId": "rJq1T_GaF",
+            "pinKey": "HJU8CE2lW"
+          }
+        }
+      },
+      "nodes": {
+        "BkVHqjfTK": {
+          "boundLiterals": {
+            "BJSrpWTyE": "\"Terlalu Panas\"",
+            "ByQ4aXnyE": "Continuously",
+            "SyWgnXnJ4": "\"nusabot/notifikasi\""
+          },
+          "id": "BkVHqjfTK",
+          "position": {
+            "x": -15,
+            "y": 2,
+            "units": "slots"
+          },
+          "type": "nusabotid/nusabot-mqtt-broker/publish"
+        },
+        "H1ulAdMTY": {
+          "arityLevel": 2,
+          "boundLiterals": {
+            "BkeKcj6ZZ-$1": "\" C\"",
+            "Hkqu9oaWb": "\"Suhu: \""
+          },
+          "id": "H1ulAdMTY",
+          "position": {
+            "x": 1,
+            "y": 2,
+            "units": "slots"
+          },
+          "type": "xod/core/concat"
+        },
+        "HkA6NtMaK": {
+          "boundLiterals": {
+            "HJbACN3gb": "30"
+          },
+          "id": "HkA6NtMaK",
+          "position": {
+            "x": -5,
+            "y": 1,
+            "units": "slots"
+          },
+          "type": "xod/core/greater"
+        },
+        "Hy7VCuGpK": {
+          "boundLiterals": {
+            "BkeKcj6ZZ-$1": "\"%\"",
+            "Hkqu9oaWb": "\"Kelembaban: \""
+          },
+          "id": "Hy7VCuGpK",
+          "position": {
+            "x": 4,
+            "y": 2,
+            "units": "slots"
+          },
+          "type": "xod/core/concat"
+        },
+        "HygHVKzpY": {
+          "boundLiterals": {
+            "B1oqkTnIb": "D13"
+          },
+          "id": "HygHVKzpY",
+          "label": "Kuning",
+          "position": {
+            "x": -6,
+            "y": 2,
+            "units": "slots"
+          },
+          "type": "xod/common-hardware/led"
+        },
+        "Hyu_utzaK": {
+          "boundLiterals": {
+            "HyyPeeoiF": "\"public.mqtthq.com\"",
+            "ryMJ0bi2u": "\"device1-suhu\""
+          },
+          "id": "Hyu_utzaK",
+          "position": {
+            "x": -15,
+            "y": 0,
+            "units": "slots"
+          },
+          "type": "nusabotid/nusabot-mqtt/nusabot-iot"
+        },
+        "SkQwlKMTY": {
+          "id": "SkQwlKMTY",
+          "position": {
+            "x": 4,
+            "y": 1,
+            "units": "slots"
+          },
+          "type": "xod/core/to-percent"
+        },
+        "Sy4HdKfpY": {
+          "boundLiterals": {
+            "H1z0HpF8Km": "\"terserah\"",
+            "HJZCrpKLYX": "\"follow_at_nusabot\""
+          },
+          "id": "Sy4HdKfpY",
+          "position": {
+            "x": -15,
+            "y": -1,
+            "units": "slots"
+          },
+          "type": "xod-dev/esp8266-mcu/connect"
+        },
+        "r1BrVKMpt": {
+          "boundLiterals": {
+            "B1oqkTnIb": "D12",
+            "HyYh1a3LZ": "1"
+          },
+          "id": "r1BrVKMpt",
+          "label": "Hijau",
+          "position": {
+            "x": -3,
+            "y": 2,
+            "units": "slots"
+          },
+          "type": "xod/common-hardware/led"
+        },
+        "r1ErEFzat": {
+          "boundLiterals": {
+            "B1oqkTnIb": "D15"
+          },
+          "id": "r1ErEFzat",
+          "label": "Merah",
+          "position": {
+            "x": -9,
+            "y": 2,
+            "units": "slots"
+          },
+          "type": "xod/common-hardware/led"
+        },
+        "rJ8whOfTK": {
+          "boundLiterals": {
+            "BJj5mmtUH": "D2"
+          },
+          "id": "rJ8whOfTK",
+          "position": {
+            "x": -8,
+            "y": -1,
+            "units": "slots"
+          },
+          "type": "xod-dev/dht/dht11-hygrometer"
+        },
+        "rJB3OYzTt": {
+          "boundLiterals": {
+            "BJSrpWTyE": "\"connected\"",
+            "ByQ4aXnyE": "Continuously",
+            "SyWgnXnJ4": "\"nusabot/suhu\""
+          },
+          "id": "rJB3OYzTt",
+          "position": {
+            "x": -14,
+            "y": 1,
+            "units": "slots"
+          },
+          "type": "nusabotid/nusabot-mqtt-broker/publish"
+        },
+        "rJYkrFzpK": {
+          "boundLiterals": {
+            "HJbACN3gb": "31"
+          },
+          "id": "rJYkrFzpK",
+          "position": {
+            "x": -8,
+            "y": 1,
+            "units": "slots"
+          },
+          "type": "xod/core/greater"
+        },
+        "rJq1T_GaF": {
+          "boundLiterals": {
+            "B13SCNhl-": "2"
+          },
+          "id": "rJq1T_GaF",
+          "position": {
+            "x": -9,
+            "y": -2,
+            "units": "slots"
+          },
+          "type": "xod/core/clock"
+        },
+        "ryaL6uM6K": {
+          "boundLiterals": {
+            "rkedCVkXS": "3Fh"
+          },
+          "id": "ryaL6uM6K",
+          "position": {
+            "x": 1,
+            "y": 3,
+            "units": "slots"
+          },
+          "type": "xod-dev/text-lcd/text-lcd-i2c-16x2"
+        }
+      },
+      "path": "@/main"
+    }
+  }
+}
